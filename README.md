@@ -1,10 +1,18 @@
 # BloomVue Landing Page
 
-A modern, responsive landing page for BloomVue - an AI-powered floral design tool for professional florists.
+A modern, responsive teaser landing page for BloomVue - an AI-powered floral design mockup tool for professional florists.
 
 ## Overview
 
-This landing page showcases BloomVue's features, benefits, and pricing plans using a clean, elegant design that reflects the brand's identity. The page is built with HTML, CSS, and minimal JavaScript for optimal performance and compatibility with GitHub Pages hosting.
+This landing page showcases BloomVue's features and benefits using a clean, elegant design that reflects the brand's identity. The page is built with HTML, CSS, and minimal JavaScript for optimal performance and compatibility with GitHub Pages hosting.
+
+## Purpose
+
+This is a teaser landing page designed to:
+- Introduce potential clients to the BloomVue concept
+- Highlight key features of the mockup generation tool
+- Provide a contact point for interested florists
+- Create interest in the upcoming full product
 
 ## Features
 
@@ -12,6 +20,7 @@ This landing page showcases BloomVue's features, benefits, and pricing plans usi
 - Modern, clean aesthetic using the BloomVue brand colors
 - Smooth animations and transitions
 - Mobile-friendly navigation
+- Email contact point for interested users
 - Optimized for GitHub Pages hosting
 
 ## Brand Colors
@@ -37,19 +46,10 @@ This landing page is designed to be hosted on GitHub Pages. To deploy:
 3. Set the source to the main branch
 4. Your site will be published at `https://yourusername.github.io/BloomVue-Landing-Page/`
 
-## Customization
+## Contact
 
-To customize this template for your own use:
-
-1. Update the content in `index.html`
-2. Modify colors in the `:root` section of `styles.css`
-3. Replace placeholder sections with your own content
-4. Add your own images to the `images` directory
-
-## License
-
-This project is available for your use and customization.
+For more information about BloomVue, contact info@bloomvue.com
 
 ---
 
-Created for BloomVue - Reimagining floral design with AI
+Created for BloomVue - Reimagining floral design presentations with AI

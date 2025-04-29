@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Mobile menu toggle functionality
     const menuToggle = document.querySelector('.mobile-menu-toggle');
     const navLinks = document.querySelector('.nav-links');
-    const navButtons = document.querySelector('.nav-buttons');
+    const contactInfo = document.querySelector('.contact-info');
     const header = document.querySelector('.header');
     
     if (menuToggle) {
@@ -33,8 +33,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="mobile-menu-links">
                         ${navLinks.innerHTML}
                     </div>
-                    <div class="mobile-menu-buttons">
-                        ${navButtons.innerHTML}
+                    <div class="mobile-menu-contact">
+                        ${contactInfo.innerHTML}
                     </div>
                 `;
                 
@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Add scroll animations
     const animateOnScroll = function() {
-        const elements = document.querySelectorAll('.feature-card, .step, .pricing-card, .hero-content, .hero-image, .value-content, .value-image');
+        const elements = document.querySelectorAll('.feature-card, .step, .hero-content, .hero-image, .value-content, .value-image');
         
         elements.forEach(element => {
             const elementPosition = element.getBoundingClientRect().top;
@@ -109,13 +109,13 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add the CSS for animations dynamically
     const style = document.createElement('style');
     style.textContent = `
-        .feature-card, .step, .pricing-card, .hero-content, .hero-image, .value-content, .value-image {
+        .feature-card, .step, .hero-content, .hero-image, .value-content, .value-image {
             opacity: 0;
             transform: translateY(30px);
             transition: opacity 0.6s ease, transform 0.6s ease;
         }
         
-        .feature-card.animate, .step.animate, .pricing-card.animate, .hero-content.animate, .hero-image.animate, .value-content.animate, .value-image.animate {
+        .feature-card.animate, .step.animate, .hero-content.animate, .hero-image.animate, .value-content.animate, .value-image.animate {
             opacity: 1;
             transform: translateY(0);
         }
@@ -144,10 +144,20 @@ document.addEventListener('DOMContentLoaded', function() {
             margin: 0;
         }
         
-        .mobile-menu-buttons {
+        .mobile-menu-contact {
             display: flex;
-            flex-direction: column;
-            gap: 0.75rem;
+            justify-content: center;
+            margin-top: 1rem;
+        }
+        
+        .mobile-menu-contact a {
+            color: var(--primary);
+            font-weight: 500;
+            text-decoration: none;
+        }
+        
+        .mobile-menu-contact a:hover {
+            text-decoration: underline;
         }
     `;
     

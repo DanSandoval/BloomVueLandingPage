@@ -194,6 +194,13 @@ img {
 .logo {
     font-size: 1.75rem;
     font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    height: 40px;
+    margin-right: 10px;
 }
 
 .brand-bloom {
@@ -341,8 +348,15 @@ img {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    background: linear-gradient(135deg, var(--secondary-light) 0%, var(--secondary) 100%);
-    opacity: 0.4;
+    position: relative;
+}
+
+.interface-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.9;
 }
 
 .ai-prompt {
@@ -424,6 +438,12 @@ img {
 .feature-icon i {
     font-size: 1.5rem;
     color: white;
+}
+
+.feature-icon-image {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
 }
 
 .feature-card h3 {
@@ -525,23 +545,12 @@ img {
     position: relative;
 }
 
-.decorative-pattern {
+.value-image-content {
     height: 400px;
     width: 100%;
     border-radius: var(--radius-lg);
-    background: linear-gradient(135deg, rgba(161, 121, 151, 0.1) 0%, rgba(94, 214, 172, 0.1) 100%);
-    position: relative;
-}
-
-.decorative-pattern::before {
-    content: "";
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    right: 20px;
-    bottom: 20px;
-    border: 2px dashed var(--primary-light);
-    border-radius: var(--radius-md);
+    object-fit: cover;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
 }
 
 .testimonial {

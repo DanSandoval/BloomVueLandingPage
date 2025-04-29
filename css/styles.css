@@ -338,6 +338,7 @@ img {
     display: flex;
     flex-direction: column;
     padding: var(--spacing-md);
+    overflow: hidden; /* Ensure content stays within bounds */
 }
 
 .screen {
@@ -721,6 +722,15 @@ img {
     .hero-image,
     .value-image {
         margin-top: var(--spacing-lg);
+        width: 100%;
+    }
+    
+    .image-container {
+        height: 350px;
+    }
+    
+    .mockup {
+        width: 100%;
     }
     
     .footer-top {
@@ -753,7 +763,20 @@ img {
         flex-direction: column;
     }
     
-
+    /* Adjust mockup display for mobile */
+    .image-container {
+        height: 300px;
+    }
+    
+    .mockup {
+        height: 90%;
+    }
+    
+    .interface-image {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
     
     .footer-bottom {
         flex-direction: column;
@@ -778,6 +801,23 @@ img {
     
     h2 {
         font-size: 1.75rem;
+    }
+    
+    /* Ensure interface image displays on smallest screens */
+    .image-container {
+        height: 250px;
+    }
+    
+    .mockup {
+        width: 95%;
+        height: 85%;
+    }
+    
+    .ai-prompt {
+        width: 90%;
+        min-width: auto;
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
     }
     
     .footer-nav {

@@ -56,8 +56,15 @@
     box-sizing: border-box;
 }
 
-html {
+/* Make sure page starts from the top */
+html, body {
     scroll-behavior: smooth;
+    /* Ensure initial position is top */
+    scroll-top: 0 !important;
+}
+
+html {
+    scroll-padding-top: 80px; /* Accounts for fixed header */
 }
 
 body {

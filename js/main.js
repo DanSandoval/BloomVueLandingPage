@@ -4,6 +4,9 @@
  */
 
 document.addEventListener('DOMContentLoaded', function() {
+    // Force scroll to top on page load
+    window.scrollTo(0, 0);
+    
     // Mobile menu toggle functionality
     const menuToggle = document.querySelector('.mobile-menu-toggle');
     const navLinks = document.querySelector('.nav-links');
@@ -100,11 +103,20 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     };
     
-    // Run once on page load
-    setTimeout(animateOnScroll, 300);
-    
-    // Run on scroll
-    window.addEventListener('scroll', animateOnScroll);
+    // Handle initial animations with a small delay
+    setTimeout(function() {
+        // Just animate elements in the first viewport without any scroll check
+        const firstViewportElements = document.querySelectorAll('.hero-content, .hero-image');
+        firstViewportElements.forEach(element => {
+            element.classList.add('animate');
+        });
+        
+        // Add scroll listener for remaining elements
+        window.addEventListener('scroll', animateOnScroll);
+        
+        // Manually trigger once after a small delay for elements just below the fold
+        setTimeout(animateOnScroll, 500);
+    }, 100);
     
     // Add the CSS for animations dynamically
     const style = document.createElement('style');

@@ -64,7 +64,7 @@ html, body {
 }
 
 html {
-    scroll-padding-top: 80px; /* Accounts for fixed header */
+    scroll-padding-top: 30px; /* Accounts for fixed header */
 }
 
 body {

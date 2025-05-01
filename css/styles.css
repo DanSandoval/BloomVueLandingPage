@@ -276,7 +276,7 @@ img {
 
 /* === Hero Section === */
 .hero {
-    padding: var(--spacing-xxl) 0;
+    padding: var(--spacing-lg) 0 var(--spacing-xxl) 0;
     background: linear-gradient(135deg, var(--light) 0%, var(--light-dark) 100%);
     overflow: hidden;
 }

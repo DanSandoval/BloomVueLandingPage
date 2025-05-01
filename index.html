@@ -1,215 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RRYQ602Y9J"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-RRYQ602Y9J');
-    </script>
-    <title>BloomVue - AI-Powered Floral Design Mockup Tool</title>
-    <link rel="icon" href="images/favicon.png" type="image/png">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&family=Poppins:wght@300;400;500;600&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RRYQ602Y9J"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-RRYQ602Y9J');
+  </script>
+
+  <title>BloomVue – AI-Powered Floral Mockups</title>
+
+  <link rel="icon" href="images/favicon.png" type="image/png" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&family=Poppins:wght@300;400;500;600&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 </head>
+
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="navbar">
-                <div class="logo">
-                    <span class="brand-bloom">Bloom</span><span class="brand-vue">Vue</span>
-                </div>
-                <nav class="nav">
-                    <ul class="nav-links">
-                        <li><a href="#features">Features</a></li>
-                        <li><a href="#how-it-works">How It Works</a></li>
-                    </ul>
-                    <div class="contact-info">
-                        <a href="mailto:info@bloomvue.com" class="email-link">info@bloomvue.com</a>
-                    </div>
-                </nav>
-                <div class="mobile-menu-toggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
+  <!-- ====================  HEADER  ==================== -->
+  <header class="header">
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <span class="brand-bloom">Bloom</span><span class="brand-vue">Vue</span>
         </div>
-    </header>
 
-    <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Reimagine Floral Design Presentations with AI</h1>
-                <p>Create stunning floral arrangement mockups with the power of artificial intelligence. BloomVue helps professional florists show clients what their arrangements will look like before the event.</p>
-                <div class="hero-cta">
-                    <a href="mailto:info@bloomvue.com" class="btn btn-primary btn-large">Interested? Email us at info@bloomvue.com</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <div class="image-container">
-                    <div class="decorative-element"></div>
-                    <div class="mockup">
-                        <div class="screen">
-                            <img src="images/mockup-interface.png" alt="BloomVue application interface showing floral mockup generation" class="interface-image">
-                            <div class="ai-prompt">
-                                <span class="prompt-prefix">Creating:</span> 
-                                <span class="prompt-text">Elegant white roses with eucalyptus in a modern vase</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <nav class="nav">
+          <ul class="nav-links">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+          </ul>
+          <div class="contact-info">
+            <a href="mailto:info@bloomvue.com" class="email-link">info@bloomvue.com</a>
+          </div>
+        </nav>
+
+        <div class="mobile-menu-toggle">
+          <span></span><span></span><span></span>
         </div>
-    </section>
+      </div>
+    </div>
+  </header>
 
-    <section id="features" class="features">
-        <div class="container">
-            <div class="section-header">
-                <h2>Professional-Grade Features</h2>
-                <p>Everything you need to help clients visualize their floral arrangements</p>
-            </div>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <!-- Font Awesome icon as fallback -->
-                        <i class="fas fa-magic"></i>
-                        <!-- Custom icon option -->
-                        <!-- <img src="images/icon-ai-mockup.png" alt="AI Mockup Icon" class="feature-icon-image"> -->
-                    </div>
-                    <h3>AI-Powered Mockups</h3>
-                    <p>Create realistic floral arrangement previews using simple text prompts, inspiration photos, or direct uploads. Help clients visualize what they're getting.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <!-- Font Awesome icon as fallback -->
-                        <i class="fas fa-images"></i>
-                        <!-- Custom icon option -->
-                        <!-- <img src="images/icon-input-options.png" alt="Input Options Icon" class="feature-icon-image"> -->
-                    </div>
-                    <h3>Versatile Input Options</h3>
-                    <p>Generate designs from text descriptions, upload inspiration images, or with pro membership, directly upload existing proposals for the effortless mockup generation.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <!-- Font Awesome icon as fallback -->
-                        <i class="fas fa-file-contract"></i>
-                        <!-- Custom icon option -->
-                        <!-- <img src="images/icon-proposal.png" alt="Proposal Icon" class="feature-icon-image"> -->
-                    </div>
-                    <h3>Proposal Pro</h3>
-                    <p>Integrate your mockups directly into professional client proposals to help secure approvals.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <!-- Font Awesome icon as fallback -->
-                        <i class="fas fa-tasks"></i>
-                        <!-- Custom icon option -->
-                        <!-- <img src="images/icon-project.png" alt="Project Management Icon" class="feature-icon-image"> -->
-                    </div>
-                    <h3>Project Management</h3>
-                    <p>Organize your designs by client and event.</p>
-                </div>
-            </div>
+  <!-- ====================  HERO  ==================== -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Instant Floral Mockups&nbsp;&#8212;&nbsp;Client “Yes!” in Minutes</h1>
+        <p>
+          BloomVue turns inspiration boards into crystal-clear visuals
+          <em>while you’re still in the meeting</em>, so approvals come faster
+          and you get back to designing.
+        </p>
+
+        <div class="hero-cta">
+          <a href="mailto:info@bloomvue.com" class="btn btn-primary btn-large">
+            Interested? Email info@bloomvue.com
+          </a>
         </div>
-    </section>
+      </div>
 
-    <section id="how-it-works" class="how-it-works">
-        <div class="container">
-            <div class="section-header">
-                <h2>How BloomVue Works</h2>
-                <p>Streamlined workflow to help clients visualize your floral designs</p>
+      <div class="hero-image">
+        <div class="image-container">
+          <div class="decorative-element"></div>
+
+          <div class="mockup">
+            <div class="screen">
+              <img
+                src="images/mockup-interface.png"
+                alt="BloomVue application interface showing floral mockup generation"
+                class="interface-image"
+              />
+
+              <div class="ai-prompt">
+                <span class="prompt-prefix">Creating:</span>
+                <span class="prompt-text">
+                  Elegant white roses with eucalyptus in a modern vase
+                </span>
+              </div>
             </div>
-            <div class="steps">
-                <div class="step">
-                    <div class="step-number">1</div>
-                    <div class="step-content">
-                        <h3>Describe Your Vision</h3>
-                        <p>Enter a text prompt describing the floral arrangement you plan to create, upload inspiration images, or with pro membership, directly upload existing proposals for instant mockup generation.</p>
-                    </div>
-                </div>
-                <div class="step">
-                    <div class="step-number">2</div>
-                    <div class="step-content">
-                        <h3>AI Generation</h3>
-                        <p>BloomVue's AI creates realistic mockups based on your input, showing clients what to expect on their special day.</p>
-                    </div>
-                </div>
-                <div class="step">
-                    <div class="step-number">3</div>
-                    <div class="step-content">
-                        <h3>Edit & Refine</h3>
-                        <p>Fine-tune your mockups with our intuitive editing tools to match what you plan to deliver using language and inspiration photos.</p>
-                    </div>
-                </div>
-                <div class="step">
-                    <div class="step-number">4</div>
-                    <div class="step-content">
-                        <h3>Share & Present</h3>
-                        <p>Include your mockups in client proposals, helping them confidently approve designs they can actually see.</p>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <section class="business-value">
-        <div class="container">
-            <div class="value-content">
-                <h2>Designed for Floral Professionals</h2>
-                <p>BloomVue helps you save time, eliminate client uncertainty, and win more business.</p>
-                <ul class="value-points">
-                    <li><i class="fas fa-check"></i> Reduce client revision requests by up to 75%</li>
-                    <li><i class="fas fa-check"></i> Win more clients with visual proposals that eliminate uncertainty</li>
-                    <li><i class="fas fa-check"></i> Bridge the gap between client expectations and reality</li>
-                    <li><i class="fas fa-check"></i> Multiple input options including text prompts, inspiration photos, and direct proposal uploads (pro membership)</li>
-                </ul>
-            </div>
-            <div class="value-image">
-                <div class="image-container">
-                    <img src="images/mockup-example.jpg" alt="Example of a floral arrangement mockup created with BloomVue" class="value-image-content">
-                </div>
-            </div>
+  <!-- ====================  FEATURES  ==================== -->
+  <section id="features" class="features">
+    <div class="container">
+      <div class="section-header">
+        <h2>Professional-Grade Features</h2>
+        <p>Everything you need to help clients visualize their floral designs</p>
+      </div>
+
+      <div class="features-grid">
+        <!-- Feature 1 -->
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-wand-magic-sparkles"></i></div>
+          <h3>AI-Guided Creation</h3>
+          <p>
+            Describe any arrangement in text or voice and BloomVue renders a
+            photo-real mockup—no design software required.
+          </p>
         </div>
-    </section>
 
-    <section class="cta">
-        <div class="container">
-            <div class="cta-content">
-                <h2>Ready to Transform Your Client Presentations?</h2>
-                <p>Learn more about AI-powered floral design mockups and give your clients the confidence to say yes.</p>
-                <div class="cta-buttons">
-                    <a href="mailto:info@bloomvue.com" class="btn btn-primary btn-large">For more information, email us at info@bloomvue.com</a>
-                </div>
-            </div>
+        <!-- Feature 2 -->
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-bullseye"></i></div>
+          <h3>Pin-Point Revisions</h3>
+          <p>
+            Click or tap a specific area, speak or type the tweak, and watch the
+            image refresh in seconds.
+          </p>
         </div>
-    </section>
 
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-top">
-                <div class="footer-logo">
-                    <span class="brand-bloom">Bloom</span><span class="brand-vue">Vue</span>
-                </div>
-                <div class="footer-contact">
-                    <a href="mailto:info@bloomvue.com">info@bloomvue.com</a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <div class="copyright">
-                    © 2025 BloomVue. All rights reserved.
-                </div>
-            </div>
+        <!-- Feature 3 -->
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-microphone"></i></div>
+          <h3>Voice or Text Prompts</h3>
+          <p>
+            Hands busy? Dictate changes live during client consultations for a
+            seamless, interactive experience.
+          </p>
         </div>
-    </footer>
 
-    <script src="js/main.js"></script>
+        <!-- Feature 4 -->
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-file-export"></i></div>
+          <h3>One-Tap Export</h3>
+          <p>
+            Download high-resolution PNG, JPG or PDF to drop straight into your
+            own proposals, websites or social posts.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================  HOW IT WORKS  ==================== -->
+  <section id="how-it-works" class="how-it-works">
+    <div class="container">
+      <div class="section-header">
+        <h2>How BloomVue Works</h2>
+        <p>AI-powered workflow clients understand instantly</p>
+      </div>
+
+      <div class="steps">
+        <!-- Step 1 -->
+        <div class="step">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h3>Describe Your Vision</h3>
+            <p>
+              Type or say the style, palette and mood—or add inspiration photos
+              for reference.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="step">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h3>AI Generation</h3>
+            <p>
+              BloomVue creates a realistic mockup in seconds, ready to show on
+              any screen.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="step">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h3>Point & Refine</h3>
+            <p>
+              Highlight any element, speak or type adjustments, and BloomVue
+              regenerates instantly—no manual editing.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="step">
+          <div class="step-number">4</div>
+          <div class="step-content">
+            <h3>Download & Share</h3>
+            <p>
+              Export your final image for proposals, social media or client
+              emails—confidence sealed.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================  BUSINESS VALUE  ==================== -->
+  <section class="business-value">
+    <div class="container">
+      <div class="value-content">
+        <h2>Designed for Floral Professionals</h2>
+        <p>Save time, eliminate uncertainty and win more business.</p>
+
+        <ul class="value-points">
+          <li><i class="fas fa-check"></i> Cut revision requests by up to 75%</li>
+          <li><i class="fas fa-check"></i> Win clients with visuals they can trust</li>
+          <li><i class="fas fa-check"></i> Bridge the gap between expectation & reality</li>
+          <li><i class="fas fa-check"></i> Live tweaks via simple voice or text prompts</li>
+        </ul>
+      </div>
+
+      <div class="value-image">
+        <div class="image-container">
+          <img
+            src="images/mockup-example.jpg"
+            alt="Example floral mockup created with BloomVue"
+            class="value-image-content"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================  CTA  ==================== -->
+  <section class="cta">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Ready to Transform Your Client Presentations?</h2>
+        <p>
+          Give clients instant confidence with AI-powered floral mockups from
+          BloomVue.
+        </p>
+
+        <div class="cta-buttons">
+          <a href="mailto:info@bloomvue.com" class="btn btn-primary btn-large">
+            Email us at info@bloomvue.com
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================  FOOTER  ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-logo">
+          <span class="brand-bloom">Bloom</span><span class="brand-vue">Vue</span>
+        </div>
+        <div class="footer-contact">
+          <a href="mailto:info@bloomvue.com">info@bloomvue.com</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="copyright">
+          © 2025 BloomVue. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>

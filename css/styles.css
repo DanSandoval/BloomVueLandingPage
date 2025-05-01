@@ -284,11 +284,13 @@ img {
 .hero .container {
     display: flex;
     align-items: center;
-    gap: var(--spacing-xl);
+    gap: var(--spacing-md);
+    justify-content: space-between;
 }
 
 .hero-content {
     flex: 1;
+    max-width: 50%;
 }
 
 .hero-content h1 {
@@ -300,7 +302,7 @@ img {
     font-size: 1.1rem;
     margin-bottom: var(--spacing-lg);
     color: #555;
-    max-width: 90%;
+    max-width: 95%;
 }
 
 .hero-cta {
@@ -311,6 +313,7 @@ img {
 .hero-image {
     flex: 1;
     position: relative;
+    margin-left: -1rem;
 }
 
 .image-container {

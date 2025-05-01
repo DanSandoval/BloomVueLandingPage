@@ -735,6 +735,16 @@ img {
         width: 100%;
     }
     
+    /* Reset the hero content max-width on tablet */
+    .hero-content {
+        max-width: 100%;
+    }
+    
+    /* Reset the negative margin on tablet */
+    .hero-image {
+        margin-left: 0;
+    }
+    
     .image-container {
         height: 350px;
     }
